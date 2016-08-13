@@ -15,6 +15,16 @@
 		CA0CF9D61D5A079300CF026D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA0CF9D41D5A079300CF026D /* LaunchScreen.storyboard */; };
 		CA0CF9E11D5A079300CF026D /* HWS_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0CF9E01D5A079300CF026D /* HWS_1Tests.swift */; };
 		CA0CF9EC1D5A079300CF026D /* HWS_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0CF9EB1D5A079300CF026D /* HWS_1UITests.swift */; };
+		CA0CFA041D5A081000CF026D /* nssl0033.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA0CF9FA1D5A081000CF026D /* nssl0033.jpg */; };
+		CA0CFA051D5A081000CF026D /* nssl0034.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA0CF9FB1D5A081000CF026D /* nssl0034.jpg */; };
+		CA0CFA061D5A081000CF026D /* nssl0041.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA0CF9FC1D5A081000CF026D /* nssl0041.jpg */; };
+		CA0CFA071D5A081000CF026D /* nssl0042.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA0CF9FD1D5A081000CF026D /* nssl0042.jpg */; };
+		CA0CFA081D5A081000CF026D /* nssl0043.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA0CF9FE1D5A081000CF026D /* nssl0043.jpg */; };
+		CA0CFA091D5A081000CF026D /* nssl0045.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA0CF9FF1D5A081000CF026D /* nssl0045.jpg */; };
+		CA0CFA0A1D5A081000CF026D /* nssl0046.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA0CFA001D5A081000CF026D /* nssl0046.jpg */; };
+		CA0CFA0B1D5A081000CF026D /* nssl0049.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA0CFA011D5A081000CF026D /* nssl0049.jpg */; };
+		CA0CFA0C1D5A081000CF026D /* nssl0051.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA0CFA021D5A081000CF026D /* nssl0051.jpg */; };
+		CA0CFA0D1D5A081000CF026D /* nssl0091.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA0CFA031D5A081000CF026D /* nssl0091.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,16 @@
 		CA0CF9E71D5A079300CF026D /* HWS-1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HWS-1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA0CF9EB1D5A079300CF026D /* HWS_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWS_1UITests.swift; sourceTree = "<group>"; };
 		CA0CF9ED1D5A079300CF026D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA0CF9FA1D5A081000CF026D /* nssl0033.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0033.jpg; sourceTree = "<group>"; };
+		CA0CF9FB1D5A081000CF026D /* nssl0034.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0034.jpg; sourceTree = "<group>"; };
+		CA0CF9FC1D5A081000CF026D /* nssl0041.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0041.jpg; sourceTree = "<group>"; };
+		CA0CF9FD1D5A081000CF026D /* nssl0042.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0042.jpg; sourceTree = "<group>"; };
+		CA0CF9FE1D5A081000CF026D /* nssl0043.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0043.jpg; sourceTree = "<group>"; };
+		CA0CF9FF1D5A081000CF026D /* nssl0045.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0045.jpg; sourceTree = "<group>"; };
+		CA0CFA001D5A081000CF026D /* nssl0046.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0046.jpg; sourceTree = "<group>"; };
+		CA0CFA011D5A081000CF026D /* nssl0049.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0049.jpg; sourceTree = "<group>"; };
+		CA0CFA021D5A081000CF026D /* nssl0051.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0051.jpg; sourceTree = "<group>"; };
+		CA0CFA031D5A081000CF026D /* nssl0091.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0091.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +126,7 @@
 				CA0CF9D21D5A079300CF026D /* Assets.xcassets */,
 				CA0CF9D41D5A079300CF026D /* LaunchScreen.storyboard */,
 				CA0CF9D71D5A079300CF026D /* Info.plist */,
+				CA0CF9F91D5A081000CF026D /* Content */,
 			);
 			path = "HWS-1";
 			sourceTree = "<group>";
@@ -126,6 +147,23 @@
 				CA0CF9ED1D5A079300CF026D /* Info.plist */,
 			);
 			path = "HWS-1UITests";
+			sourceTree = "<group>";
+		};
+		CA0CF9F91D5A081000CF026D /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				CA0CF9FA1D5A081000CF026D /* nssl0033.jpg */,
+				CA0CF9FB1D5A081000CF026D /* nssl0034.jpg */,
+				CA0CF9FC1D5A081000CF026D /* nssl0041.jpg */,
+				CA0CF9FD1D5A081000CF026D /* nssl0042.jpg */,
+				CA0CF9FE1D5A081000CF026D /* nssl0043.jpg */,
+				CA0CF9FF1D5A081000CF026D /* nssl0045.jpg */,
+				CA0CFA001D5A081000CF026D /* nssl0046.jpg */,
+				CA0CFA011D5A081000CF026D /* nssl0049.jpg */,
+				CA0CFA021D5A081000CF026D /* nssl0051.jpg */,
+				CA0CFA031D5A081000CF026D /* nssl0091.jpg */,
+			);
+			path = Content;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,8 +273,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA0CFA051D5A081000CF026D /* nssl0034.jpg in Resources */,
+				CA0CFA0C1D5A081000CF026D /* nssl0051.jpg in Resources */,
 				CA0CF9D61D5A079300CF026D /* LaunchScreen.storyboard in Resources */,
+				CA0CFA081D5A081000CF026D /* nssl0043.jpg in Resources */,
+				CA0CFA041D5A081000CF026D /* nssl0033.jpg in Resources */,
+				CA0CFA091D5A081000CF026D /* nssl0045.jpg in Resources */,
+				CA0CFA0A1D5A081000CF026D /* nssl0046.jpg in Resources */,
+				CA0CFA0B1D5A081000CF026D /* nssl0049.jpg in Resources */,
+				CA0CFA071D5A081000CF026D /* nssl0042.jpg in Resources */,
 				CA0CF9D31D5A079300CF026D /* Assets.xcassets in Resources */,
+				CA0CFA0D1D5A081000CF026D /* nssl0091.jpg in Resources */,
+				CA0CFA061D5A081000CF026D /* nssl0041.jpg in Resources */,
 				CA0CF9D11D5A079300CF026D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

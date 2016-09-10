@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Social
 
 class DetailViewController: UIViewController {
 
@@ -33,6 +34,8 @@ class DetailViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         self.configureView()
+        
+        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .Action, target: self, action: #selector(shareTapped))
     }
 
     override func didReceiveMemoryWarning() {
@@ -52,5 +55,21 @@ class DetailViewController: UIViewController {
         navigationController?.hidesBarsOnTap = false
     }
 
+}
+
+extension DetailViewController{
+    func shareTapped(){
+        //show share screen
+        /*
+        let acitivityVC = UIActivityViewController(activityItems: [imageView.image!], applicationActivities: [])
+        acitivityVC.popoverPresentationController?.barButtonItem = navigationItem.rightBarButtonItem
+        presentViewController(acitivityVC, animated: true, completion: nil)
+        */
+        let vc = SLComposeViewController(forServiceType: SLServiceTypeFacebook)
+        vc.setInitialText("look at the picture here")
+        vc.addImage(imageView.image!)
+        vc.addURL(NSURL(string: "http://www.photolib.noaa.gov/nssl"))
+        presentViewController(vc, animated: true, completion: nil)
+    }
 }
 

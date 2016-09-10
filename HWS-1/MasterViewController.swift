@@ -2,8 +2,8 @@
 //  MasterViewController.swift
 //  HWS-1
 //
-//  Created by ZhongZhongzhong on 2016-08-09.
-//  Copyright © 2016 ZhongZhongzhong. All rights reserved.
+//  Created by Zhenjiang Liu on 2016-08-09.
+//  Copyright © 2016 Zhenjiang Liu. All rights reserved.
 //
 
 import UIKit
